@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-v1.1.3-0A84FF?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/Version-v1.1.4-0A84FF?style=flat-square">
   <img alt="iOS" src="https://img.shields.io/badge/iOS-14%2B-111111?style=flat-square&logo=apple">
   <img alt="Install" src="https://img.shields.io/badge/Install-TrollStore-5E5CE6?style=flat-square">
   <img alt="Language" src="https://img.shields.io/badge/Language-中文-34C759?style=flat-square">
@@ -32,7 +32,7 @@
 
 ## 最新版本
 
-### v1.1.3
+### v1.1.4
 
 <p align="center">
   <a href="https://github.com/susu123oss/MT-Auto-clicker/releases/latest"><strong>前往 Releases 下载最新版本</strong></a>
@@ -144,7 +144,7 @@ MT 连点器适合处理那些 **高频、重复、固定、需要持续执行**
 | **安装方式** | TrollStore |
 | **安装包** | TIPA |
 | **最低系统** | iOS 14.0 |
-| **当前版本** | v1.1.3 |
+| **当前版本** | v1.1.4 |
 
 下载完成后，通过 TrollStore 安装对应 TIPA 即可。
 
