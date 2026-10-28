@@ -1,22 +1,23 @@
-<h1 align="center">MT AutoClicker</h1>
+<h1 align="center">MT AutoClicker · MT 连点器</h1>
 
 <p align="center">
-  <strong>MT 连点器 · 为 iPhone 打造的智能自动操作工具</strong>
+  <strong>看得见，识别得出，触控得到。把重复操作交给智能自动化。</strong>
 </p>
 
 <p align="center">
-  把重复点击、固定手势、画面识别与连续操作交给 MT。<br>
-  更少重复操作，更专注真正重要的事情。
+  连点 · 手势 · 找图 · 找色 · 文字识别 · 悬浮控制<br>
+  从固定点击到根据画面执行下一步，让 iPhone 自动化更进一步。
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-v1.1.4-0A84FF?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/Version-v1.1.6-0A84FF?style=flat-square">
   <img alt="iOS" src="https://img.shields.io/badge/iOS-14%2B-111111?style=flat-square&logo=apple">
-  <img alt="Install" src="https://img.shields.io/badge/Install-TrollStore-5E5CE6?style=flat-square">
+  <img alt="Install" src="https://img.shields.io/badge/Install-TrollStore%20%7C%20DEB-5E5CE6?style=flat-square">
   <img alt="Language" src="https://img.shields.io/badge/Language-中文-34C759?style=flat-square">
 </p>
 
 <p align="center">
+  <a href="#mt-家族--mt-family">MT 家族</a> ·
   <a href="#最新版本">最新版本</a> ·
   <a href="#下载与安装">下载与安装</a> ·
   <a href="#mt-连点器是什么">产品介绍</a> ·
@@ -32,14 +33,36 @@
 
 ## 最新版本
 
-### v1.1.4
+### v1.1.6 · 最新公开正式版
 
 <p align="center">
   <a href="https://github.com/susu123oss/MT-Auto-clicker/releases/latest"><strong>前往 Releases 下载最新版本</strong></a>
 </p>
 
-MT 连点器持续围绕稳定性、操作体验和真实设备适配进行优化。  
-建议始终使用本仓库发布的最新正式版本，以获得更完整的体验。
+**v1.1.6 更新亮点**
+
+- **新增三种越狱安装包**：在 TrollStore TIPA 之外，正式提供 rootful、rootless、RootHide DEB。
+- **触摸更精准**：改善设备侧点击与手势执行的准确度和响应体验。
+- **长时间运行更稳定**：优化后台运行与内存占用，减少持续找图、找字及多轮任务中的异常退出风险。
+- **体验持续打磨**：兼顾悬浮操作、不同设备和横竖屏使用场景。
+
+[查看 v1.1.6 版本发布说明](https://github.com/susu123oss/MT-Auto-clicker/releases/tag/1.1.6) · [前往最新下载](https://github.com/susu123oss/MT-Auto-clicker/releases/latest)
+
+---
+
+## MT 家族 · MT Family
+
+**一套面向 iPhone 的工程与自动化生态，三款各司其职的独立产品。**
+
+| 产品 | 核心定位 | 适合做什么 | 下载 |
+| --- | --- | --- | --- |
+| **MT 智能体 · MT Agent** | AI 工程中枢 | 理解项目、分析日志、协助编程、调用工具与 Runtime | [查看 MT Agent](https://github.com/susu123oss/MT-Agent) |
+| **MT 内存工具 · MemoryToolkit** | 真机动态分析工作台 | 内存搜索、稳定定位、断点、ARM64 分析与 MCP 调试 | [查看 MemoryToolkit](https://github.com/susu123oss/MemoryToolkit-Release) |
+| **MT 连点器 · AutoClicker** | 视觉与触摸自动化 | 连点、手势、找图、找色、OCR 与设备侧流程执行 | [查看 AutoClicker](https://github.com/susu123oss/MT-Auto-clicker) |
+
+**理解与编排（Agent） × 运行时观察（MemoryToolkit） × 设备侧执行（AutoClicker）**
+
+三款产品分别安装、独立更新。按需组合即可：需要真机动态分析时，可使用 MT 内存工具提供的 MCP 调试能力与 Agent 协作；连点器则专注视觉识别和触摸自动化，不依赖安装另外两款 App。
 
 ---
 
@@ -141,12 +164,14 @@ MT 连点器适合处理那些 **高频、重复、固定、需要持续执行**
 
 | 项目 | 当前说明 |
 | --- | --- |
-| **安装方式** | TrollStore |
-| **安装包** | TIPA |
-| **最低系统** | iOS 14.0 |
-| **当前版本** | v1.1.4 |
+| **TrollStore** | `MTAutoClicker-v1.1.6.tipa` |
+| **rootful 越狱** | `MTAutoClicker-v1.1.6-rootful.deb` |
+| **rootless 越狱** | `MTAutoClicker-v1.1.6-rootless.deb` |
+| **RootHide** | `MTAutoClicker-v1.1.6-roothide.deb` |
 
-下载完成后，通过 TrollStore 安装对应 TIPA 即可。
+**最低系统：iOS 14.0**。TrollStore 用户安装 TIPA；越狱用户使用与环境对应的 DEB，通过兼容的包管理器安装。
+
+> 上表为公开 v1.1.6 Release **实际附件名称**。此后本地构建命名可能不同，下载时请以对应 Release 页面为准；不同安装环境的软件包不要混装。
 
 > 不建议从来源不明的第三方渠道获取安装包。正式版本与更新说明以本仓库 Releases 为准。
 
@@ -159,7 +184,7 @@ MT 连点器以真实 iPhone 使用体验为主要目标。
 当前正式版本面向：
 
 - iOS 14.0 及以上系统
-- TrollStore 安装环境
+- TrollStore 或支持的越狱安装环境
 - iPhone arm64 设备
 
 不同系统版本、设备型号、前台应用和输入环境可能存在差异。  
@@ -193,6 +218,7 @@ MT 连点器是一款通用自动操作工具。
 ---
 
 <p align="center">
-  <strong>MT AutoClicker</strong><br>
-  让重复操作自动完成，让每一次点击都更有价值。
+  <strong>MT AutoClicker · MT Family</strong><br>
+  See. Recognize. Touch. Automate.<br>
+  让重复操作自动完成，让每一次点击都更有价值.
 </p>
